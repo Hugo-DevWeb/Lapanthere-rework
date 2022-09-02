@@ -677,7 +677,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 14px;
 }
 
 .tight-width-whitespace {
@@ -704,10 +704,6 @@ p {
     margin: auto auto auto auto;
 }
 
-h2 {
-    font-size: 22px;
-    line-height: 1.4em;
-}
 
 h3 {
     font-size: 15px;
@@ -1039,4 +1035,27 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+/* Ajouter lors de l'optimisation SEO */ 
+.col-sm-12.text-center{
+    display: flex;
+    justify-content: center;
+}
+.col-sm-12-title{
+    width: 61%;
+}
+
+h2 {
+    font-size: 22px;
+    line-height: 1.4em;
+}
+.review{
+    font-size:  22px;
+    font-style: italic;
+}
+.autor-review{
+    font-size: 17px;
+}
+.book-title{
+
 }
