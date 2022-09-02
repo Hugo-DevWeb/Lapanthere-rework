@@ -771,7 +771,8 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FFFFFF!important;
+    font-weight: bold;
 }
 
 .btn-atomic-tangerine {
@@ -1022,6 +1023,15 @@ h4 {
         width: 180px;
         height: 320px;
     }
+    .img-responsive {
+        width: 100%;
+    }
+    .row.row-no-gutters.social {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+
 }
 
 @media (max-width: 400px) {
@@ -1042,7 +1052,7 @@ h4 {
     justify-content: center;
 }
 .col-sm-12-title{
-    width: 61%;
+    width: 93%;
 }
 
 h2 {
@@ -1056,6 +1066,7 @@ h2 {
 .autor-review{
     font-size: 17px;
 }
-.book-title{
-
+.name-title{
+    color: #F3976C !important;
 }
+
