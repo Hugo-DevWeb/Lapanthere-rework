@@ -193,10 +193,10 @@ a:hover {
     border-color: rgba(0, 0, 0, .3);
 }
 
-.d-bloc .panel,
+/* .d-bloc .panel,
 .l-bloc {
     color: rgba(0, 0, 0, .5);
-}
+} */
 
 .d-bloc .panel button:hover,
 .l-bloc button:hover {
@@ -504,6 +504,10 @@ button {
 .panel-rd .panel-footer {
     border-radius: 0 0 29px 29px;
 }
+.mg-md.text-center.tc-white.white-title {
+    color: white !important;
+    position: relative;
+  }
 
 .form-control {
     border-color: rgba(0, 0, 0, .1);
@@ -529,7 +533,12 @@ button {
     font-size: 14px;
     opacity: 1;
 }
-
+.white-title{
+    color: black !important;
+}
+/* .mg-md.text-center.tc-white {
+    color: white !important;
+    } */
 a[data-lightbox] {
     position: relative;
     display: block;
@@ -732,7 +741,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: black !important;
 }
 
 .portfolio-thumb {
@@ -749,7 +758,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: bisque;
     padding: 40px 40px 40px 40px;
 }
 
@@ -771,7 +780,7 @@ h4 {
 }
 
 .tc-white {
-    color: #FFFFFF!important;
+    color: black !important;
     font-weight: bold;
 }
 
@@ -786,7 +795,7 @@ h4 {
 }
 
 .ltc-white {
-    color: #FFFFFF!important;
+    color: black !important;
 }
 
 .ltc-white:hover {
@@ -1067,6 +1076,6 @@ h2 {
     font-size: 17px;
 }
 .name-title{
-    color: #F3976C !important;
+    color: #FFF !important;
 }
 
